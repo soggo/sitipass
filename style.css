@@ -5,6 +5,7 @@
 
 body{
     background-color: rgb(56, 43, 241);   
+    
     /* background-color: whitesmoke; */
 }
 .logo{
@@ -43,15 +44,15 @@ body{
     width: 20rem;
     height: 3.5rem;
     border-radius: 65px;
-    border: none;
+    border: 2px solid white;
     outline: white;
     background-color: transparent;
 }
 
-input::focus{
+input:focus{
   outline: none;
   border: none;
-  outline: white;
+  outline:2px solid white;
   background-color: transparent;
 }
 
