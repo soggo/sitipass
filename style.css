@@ -1,0 +1,91 @@
+*{
+ padding: 0;
+ margin: 0;   
+}
+
+body{
+    background-color: rgb(56, 43, 241);   
+    /* background-color: whitesmoke; */
+}
+.logo{
+    width: 30%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: center;
+}
+
+.hero-img{
+    display: flex;
+    justify-content: center;
+    margin-top:3% ;
+    height: 25rem; 
+}
+
+.intro{
+    width: 738px;
+}
+.box{
+    outline: 1px solid white;
+}
+
+.mail-form{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    
+}
+
+.mailbox{
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 65px;
+    border: none;
+    outline: white;
+    background-color: transparent;
+}
+
+input::focus{
+  outline: none;
+  border: none;
+  outline: white;
+  background-color: transparent;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    font-size: larger;
+}
+
+/* .button{
+    display: flex;
+    gap: 10px
+} */
+
+.submit-btn{
+    height: 3rem;
+    border-radius: 45px;
+    border: none;
+    width: 8.5rem;
+    font-size: larger;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+h3{
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+}
+
+
