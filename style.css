@@ -3,10 +3,8 @@
  margin: 0;   
 }
 
-body{
-    background-color: rgb(56, 43, 241);   
-    
-    /* background-color: whitesmoke; */
+body{ 
+    background-color: #fffef5;
 }
 .logo{
     width: 30%;
@@ -17,6 +15,12 @@ body{
     flex-direction: column;
     gap:40px;
     align-items: center;
+}
+
+.intro{
+    color: #191800;
+    font-size: 1.6em;
+    text-align:justify;
 }
 
 .hero-img{
@@ -41,18 +45,16 @@ body{
 }
 
 .mailbox{
-    width: 20rem;
+    width: 25rem;
     height: 3.5rem;
     border-radius: 65px;
-    border: 2px solid white;
-    outline: white;
+    border: 2px solid #030fe2;
+    /* outline: 2px solid #030fe2; */
     background-color: transparent;
 }
 
 input:focus{
   outline: none;
-  border: none;
-  outline:2px solid white;
   background-color: transparent;
 }
 
@@ -71,22 +73,23 @@ input{
 } */
 
 .submit-btn{
-    height: 3rem;
+    height: 3.5rem;
     border-radius: 45px;
     border: none;
     width: 8.5rem;
-    font-size: larger;
+    font-size: 1.5rem;
     text-align: center;
+    background-color: #3640fc ;
+    color: #191800;
 }
 
-h1{
-    color: white;
+.submit-btn:hover{
+    opacity: 85%;
 }
-h3{
-    color: whitesmoke;
+
+.hidden{
+    display: none;
 }
-p{
-    color: whitesmoke;
-}
+
 
 
