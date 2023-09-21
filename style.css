@@ -5,9 +5,10 @@
 
 body{ 
     background-color: #fffef5;
+    font-family: 'Noto Sans Nabataean', sans-serif;
 }
 .logo{
-    width: 30%;
+    width: 20%;
 }
 
 .text{
@@ -15,24 +16,24 @@ body{
     flex-direction: column;
     gap:40px;
     align-items: center;
+    margin-top: 2%;
+    width: 30;
+}
+.tag{
+    text-align: center;
+}
+.primary{
+    color: #87a1fc;
 }
 
 .intro{
     color: #191800;
     font-size: 1.6em;
     text-align:justify;
-}
-
-.hero-img{
-    display: flex;
-    justify-content: center;
-    margin-top:3% ;
-    height: 25rem; 
-}
-
-.intro{
     width: 738px;
 }
+
+
 .box{
     outline: 1px solid white;
 }
@@ -41,14 +42,16 @@ body{
     display: flex;
     gap: 3px;
     align-items: center;
+    justify-items: center;
+    height: 8rem;
     
 }
-
 .mailbox{
-    width: 25rem;
+    margin-top: 2%;
+    width: 40rem;
     height: 3.5rem;
     border-radius: 65px;
-    border: 2px solid #030fe2;
+    border: 2px solid #87a1fc;
     /* outline: 2px solid #030fe2; */
     background-color: transparent;
 }
@@ -64,32 +67,81 @@ input::placeholder{
 
 input{
     text-align: center;
-    font-size: larger;
+    font-size: 1.5rem;
 }
 
-/* .button{
-    display: flex;
-    gap: 10px
-} */
 
 .submit-btn{
+    margin-top: 1rem;
     height: 3.5rem;
     border-radius: 45px;
     border: none;
     width: 8.5rem;
     font-size: 1.5rem;
     text-align: center;
-    background-color: #3640fc ;
-    color: #191800;
+    background-color: #87a1fc ;
+    color: #fffef5;
 }
 
 .submit-btn:hover{
     opacity: 85%;
 }
 
+.submit-btn:active{
+    background-color: #87a1fc;
+}
+
+.modal{
+    font-size: 1.8rem;
+}
+
 .hidden{
     display: none;
 }
 
+/* media styles */
 
+@media only screen and  (max-width: 767px) {
+    body{
+        width: 100vw;
+    }
 
+    .logo{
+        margin-top: 5%;
+        width: 80%;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        align-items: center;
+    }
+    .intro{
+        width: 80%;
+        font-size: medium;
+    }
+
+    .mail-form{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .mailbox{
+        margin: 0%;
+        width: 100%;
+    }
+    .submit-btn{
+        margin: 0;
+        width: 100%;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .modal{
+        font-size: medium;
+    }
+    
+}
