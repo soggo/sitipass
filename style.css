@@ -6,7 +6,6 @@
 body{ 
     background-color: #fffef5;
     font-family: 'Noto Sans Nabataean', sans-serif;
-    height: 100vh;
 }
 a{
     display: flex;
