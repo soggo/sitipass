@@ -6,6 +6,7 @@
 body{ 
     background-color: #fffef5;
     font-family: 'Noto Sans Nabataean', sans-serif;
+    height: 100vh;
 }
 a{
     display: flex;
@@ -26,6 +27,7 @@ a{
 .tag{
     text-align: center;
 }
+
 .primary{
     color: #87a1fc;
 }
@@ -37,18 +39,11 @@ a{
     width: 738px;
 }
 
-
-.box{
-    outline: 1px solid white;
-}
-
 .mail-form{
     display: flex;
     gap: 3px;
     align-items: center;
-    justify-items: center;
-    height: 8rem;
-    
+    height: 8rem;    
 }
 .mailbox{
     margin-top: 2%;
@@ -56,13 +51,11 @@ a{
     height: 3.5rem;
     border-radius: 65px;
     border: 2px solid #87a1fc;
-    /* outline: 2px solid #030fe2; */
     background-color: transparent;
 }
 
 input:focus{
   outline: none;
-  background-color: transparent;
 }
 
 input::placeholder{
@@ -74,11 +67,10 @@ input{
     font-size: 1.5rem;
 }
 
-
 .submit-btn{
     margin-top: 1rem;
     height: 3.5rem;
-    border-radius: 45px;
+    border-radius: 65px;
     border: none;
     width: 8.5rem;
     font-size: 1.5rem;
