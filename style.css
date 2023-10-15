@@ -102,10 +102,13 @@ input{
         margin-top: 5%;
         width: 80%;
     }
+    .hero>img{
+        height: 11rem;
+    }
     .text{
         display: flex;
         flex-direction: column;
-        gap:40px;
+        gap:25px;
         align-items: center;
     }
     .intro{
@@ -116,16 +119,15 @@ input{
     .mail-form{
         display: flex;
         flex-direction: column;
-        gap: 1px;
     }
 
     .mailbox{
         margin: 0%;
-        width: 100%;
+        width: 90%;
     }
     .submit-btn{
         margin: 0;
-        width: 100%;
+        width: 90%;
     }
 
     .hidden{
