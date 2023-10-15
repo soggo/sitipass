@@ -11,9 +11,6 @@ a{
     display: flex;
     justify-content: center;
 }
-.logo{
-    width: 40%;
-}
 
 .text{
     display: flex;
@@ -28,7 +25,7 @@ a{
 }
 
 .primary{
-    color: #87a1fc;
+    color: #477BFF;
 }
 
 .intro{
